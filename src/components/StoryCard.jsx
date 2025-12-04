@@ -17,13 +17,13 @@ export default function StoryCard({ name, image, text, link }) {
         className="story-img rounded-full mb-4 shadow-md"
       />
 
-      <h3 className="text-xl font-bold mb-2">{name}</h3>
+      <h3 className="text-rosita text-xl font-bold mb-2">{name}</h3>
 
-      <p className="mb-4 italic">“{text}”</p>
+      <p className="text-description mb-4 italic">“{text}”</p>
 
       <button
         onClick={handleClick}
-        className="mt-auto px-6 py-2 bg-green-600 text-white rounded-lg"
+        className="btn-testimony mt-auto px-6 py-2 bg-green-600 text-white rounded-lg"
       >
         Read Story
       </button>

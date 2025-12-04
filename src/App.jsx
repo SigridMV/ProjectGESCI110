@@ -23,8 +23,9 @@ export default function App() {
             <Route path="/testimony" element={<Testimony />} />
           </Routes>
         </main>
-        <Footer />
+        
       </div>
+      <Footer />
     </Router>
   );
 }

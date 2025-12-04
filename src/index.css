@@ -455,16 +455,31 @@ img {
 
 /* Imagen circular pequeña para StoryCard y Testimony */
 .story-img {
-  width: 200px !important;   /* ancho fijo */
-  height: 200px !important;  /* alto fijo */
-  object-fit: cover;
-  border-radius: 50%;        /* círculo perfecto */
+  width: 150px;       /* ancho base */
+  height: 150px;      /* alto base */
+  max-width: 100%;    /* nunca sobresalga del contenedor */
+  object-fit: cover;  /* recorta manteniendo proporción */
+  border-radius: 50%; /* círculo perfecto */
+  display: block;
+  margin: 0 auto 1rem; /* centrada y con margen inferior */
 }
 
 
 .este{
   width: 50%;
   height: auto;
+}
+
+.text-rosita{
+margin-left: 20px;
+}
+
+.text-description{
+  margin-left: 20px;
+}
+
+.btn-testimony{
+  margin-left: 20px;
 }
 
 
