@@ -1,7 +1,7 @@
 export default function Testimony() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-white py-20 px-4">
-      <div className="max-w-md w-full">
+      <div className="w-full max-w-3xl">
         <div className="card flex flex-col items-center p-6">
           {/* Nombre / título */}
           <h2 className="text-2xl font-bold text-green-700 mb-4 text-center">
@@ -21,17 +21,15 @@ export default function Testimony() {
             truly empowering to see tiny seeds grow into something nourishing.
           </p>
 
-          {/* Video de YouTube */}
+          {/* Video de YouTube responsive */}
           <div className="w-full aspect-video">
             <iframe
-              width="560"
-              height="315"
+              className="w-full h-full rounded-lg"
               src="https://www.youtube.com/embed/W-B8kcKbA64?si=lXUpaMYu9QPvmbf2"
-              title="YouTube video player"
-              frameborder="0"
+              title="Rosita's Story"
+              frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen
+              allowFullScreen
             ></iframe>
           </div>
         </div>
